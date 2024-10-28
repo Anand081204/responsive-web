@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BUILDCON</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!---navbar-->
+    <nav class="navbar fixed-top text-dark navbar-expand-lg bg-light top-container ">
+        <div class="container">
+            <a class="navbar-brand pt-2">
+                <h4><span style="color: rgb(206, 173, 43);">BUILD</span>CON</h4>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <span style="color: rgb(206, 173, 43);">BUILD</span>CON
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto my-auto ul-font" id="ul-tag">
+                        <li class="nav-item">
+                            <a class="nav-link text-#09090a" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">poritfolid</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">contact</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--caurosel-->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-home">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="project-1-img/home-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="project-1-img/home-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="project-1-img/home-2.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--card-->
+    <div class="container p-5">
+        <div class="card mb-3 shadow about-card" style="width: 100%; min-height:300px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="project-1-img/about.jpg" class="img-fluid rounded-start" alt="..." style="padding: 10px;">
+                </div>
+                <div class="col-md-8 my-auto ">
+                    <div class="card-body">
+                        <h5 class="card-title">We Provide the Best Quality Serivices Ever</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,
+                            dignissimos!This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="" class="btn btn-warning">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---our-serivice-->
+    <div class="container">
+        <div class="our-service-heading text-center">
+            <h1> Our Services</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit.</p>
+        </div>
+        <div class="card-container py-5" style="display: flex ;flex-wrap: wrap;gap: 15px;justify-content: center;">
+            <div class="card bg-dark text-light shadow small-card" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-laptop" style="font-size: 40px; margin-bottom: 15px;"></i>
+                    <h4>Best Quality</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit assumenda nostrum eius
+                        delectus suscipit?</p>
+                    <a href="" class="btn btn-warning">Read more</a>
+                </div>
+            </div>
+            <div class="card bg-dark text-light shadow small-card" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-book-open" style="font-size: 40px; margin-bottom: 15px;"></i>
+                    <h4>Sustainability</h4>
+                    <p>Corporis sit assumenda nostrum eius delectus suscipit?</p>
+                    <a href="" class="btn btn-warning">Read more</a>
+                </div>
+            </div>
+            <div class="card bg-dark text-light shadow small-card" style="width: 18rem;">
+                <div class="card-body text-center">
+                    <i class="fa-regular fa-object-ungroup" style="font-size: 40px; margin-bottom: 15px;"></i>
+                    <h4>Best Quality</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit assumenda nostrum eius
+                        delectus suscipit?</p>
+                    <a href="" class="btn btn-warning">Read more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!---our-project-->
+    <div class="container py-5">
+        <div class="our-service-heading text-center">
+            <h1> Our Project</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit.</p>
+        </div>
+        <div class="projuct-card-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+            <div class="card mt-5 shadow small-card" style="width: 18rem;">
+                <img src="project-1-img/project-1.jpg" class="card-img-top" alt="..." style="padding: 20px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mt-5 shadow small-card" style="width: 18rem;">
+                <img src="project-1-img/project-3.jpg" class="card-img-top" alt="..." style="padding: 20px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mt-5 shadow small-card" style="width: 18rem;">
+                <img src="project-1-img/project-2.jpg" class="card-img-top" alt="..." style="padding: 20px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---our-project-->
+    <div class="container py-5">
+        <div class="our-service-heading text-center">
+            <h1> Our Team</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card mt-5 shadow text-center shadow small-card">
+                    <div class="text-center">
+                        <img src="project-1-img/team-1.jpg" class="card-img-top rounded-circle" alt="..."
+                            style="padding: 20px; height: 150px; width: 150px; bord">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the t.</p>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"> </i>
+                            <i class="fa-brands fa-instagram"> </i>
+                            <i class="fa-brands fa-linkedin"> </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card mt-5 shadow text-center shadow small-card">
+                    <div class="text-center">
+                        <img src="project-1-img/team-2.jpg" class="card-img-top rounded-circle" alt="..."
+                            style="padding: 20px; height: 150px; width: 150px; bord">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the t.</p>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"> </i>
+                            <i class="fa-brands fa-instagram"> </i>
+                            <i class="fa-brands fa-linkedin"> </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card mt-5 shadow text-center shadow small-card">
+                    <div class="text-center">
+                        <img src="project-1-img/team-3.jpg" class="card-img-top rounded-circle" alt="..."
+                            style="padding: 20px; height: 150px; width: 150px; bord">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the t.</p>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"> </i>
+                            <i class="fa-brands fa-instagram"> </i>
+                            <i class="fa-brands fa-linkedin"> </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card mt-5 shadow text-center shadow small-card">
+                    <div class="text-center">
+                        <img src="project-1-img/team-4.jpg" class="card-img-top rounded-circle" alt="..."
+                            style="padding: 20px; height: 150px; width: 150px; bord">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the t.</p>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"> </i>
+                            <i class="fa-brands fa-instagram"> </i>
+                            <i class="fa-brands fa-linkedin"> </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!---our-project-->
+    <div class="container py-5">
+        <div class="contact-heading text-center">
+            <h1> contact</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit.</p>
+        </div>
+
+        <form action="" class="p-5" style="background-color: rgba(220, 220, 220, 0.725);">
+
+            <div class="mb-3">
+                <input type="text" class="form-control order-1" id="exampleFormControlInput1" placeholder="Full Name">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control order-3" id="exampleFormControlInput1"
+                    placeholder="name@example.com" style="border:solid black 1px;">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control order-2" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Message"></textarea>
+            </div>
+            <div class="mb-3">
+                <input type="submit" class="form-control order-3" id="exampleFormControlInput1"
+                    style="background-color: rgb(206, 173, 43);">
+            </div>
+        </form>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
